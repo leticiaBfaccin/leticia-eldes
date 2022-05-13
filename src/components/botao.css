@@ -1,0 +1,10 @@
+
+.Button {
+    background-color: blanchedalmond;
+    border: none;
+    padding: 20px 30px;
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+    font-size: 16px;
+}

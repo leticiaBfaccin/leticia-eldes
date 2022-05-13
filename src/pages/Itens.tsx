@@ -1,4 +1,7 @@
+import './Itens.css';
+import Botao from '../components/botao';
 import Cabecalho from '../components/Cabeçalho';
+import Rodape from '../components/Rodape';
 
 
 const ItensPage = function() {
@@ -8,11 +11,14 @@ const ItensPage = function() {
             <main>
                 <h1>Itens</h1>
                 <ul>
-                    <li>Item 1</li>
-                    <li>Item 2</li>
-                    <li>Item 3</li>
+                    <li>seja gentil</li>
+                    <li>seja grato</li>
+                    <li>beba coca</li>
                 </ul>
+                <Botao texto="fechar"/><Botao texto= "cancelar" />
+               
             </main>
+            <Rodape/>
             </div>
     )
 }

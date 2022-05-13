@@ -3,8 +3,8 @@ import './Cabeçalho.css';
 const Cabecalho = function () {
     return (
         <header>
-            <span> App Itens </span>
-        </header>
+            <span> App Itens </span> 
+    </header>     
     );
 };
 
